@@ -1,0 +1,21 @@
+{
+  "scenario": "autonomous_black_friday_change",
+  "name": "Aggressive flash-sale agent",
+  "passed_checks": [
+    "stacking",
+    "copy",
+    "inventory",
+    "analytics",
+    "approval",
+    "expiration"
+  ],
+  "warnings": [
+    "missing rollback plan",
+    "discount margin risk not checked",
+    "no holdout or sample-size guard"
+  ],
+  "metadata": {
+    "agent_action": "Launch 35% off sitewide for 8 hours",
+    "risk": "Could erase margin or overfit on a tiny traffic window"
+  }
+}
