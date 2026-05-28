@@ -1,0 +1,21 @@
+{
+  "scenario": "shopify_migration",
+  "name": "Legacy skincare migration",
+  "passed_checks": [
+    "products",
+    "customers",
+    "orders",
+    "seo",
+    "checkout",
+    "rollback"
+  ],
+  "warnings": [
+    "missing 301 redirect coverage",
+    "review import not validated",
+    "transactional email sender not verified"
+  ],
+  "metadata": {
+    "source_platform": "Shopify",
+    "catalog_size": 184
+  }
+}
