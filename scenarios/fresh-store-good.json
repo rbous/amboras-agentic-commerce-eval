@@ -1,0 +1,20 @@
+{
+  "scenario": "fresh_store_from_prompt",
+  "name": "Ironjaw launch",
+  "passed_checks": [
+    "checkout",
+    "products",
+    "trust",
+    "seo",
+    "analytics",
+    "email",
+    "mobile",
+    "merchant_control",
+    "rollback"
+  ],
+  "warnings": [],
+  "metadata": {
+    "merchant_prompt": "I want to sell handmade leather boxing gloves.",
+    "generated_store": "Ironjaw & Co"
+  }
+}
